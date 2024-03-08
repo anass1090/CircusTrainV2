@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CircusTrainV2.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
@@ -7,8 +8,10 @@ using System.Threading.Tasks;
 
 namespace CircusTrainV2
 {
-    internal class Animal
+    public interface IAnimal
     {
+        Sizes Size { get; set; }
         
+        bool WillEat(IAnimal animal);
     }
 }

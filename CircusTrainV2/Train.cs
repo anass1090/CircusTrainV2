@@ -8,6 +8,11 @@ namespace CircusTrainV2
 {
     public class Train
     {
-        private List<Wagon> wagons;
+        public List<Wagon> Wagons { get; private set; }
+
+        public Train(List<Wagon> wagons)
+        {
+            Wagons = wagons;
+        }
     }
 }

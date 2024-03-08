@@ -42,6 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animal.cs" />
+    <Compile Include="AnimalTypes\Carnivore.cs" />
+    <Compile Include="AnimalTypes\Herbivore.cs" />
+    <Compile Include="Case.cs" />
+    <Compile Include="Enums\Sizes.cs" />
+    <Compile Include="AnimalPlacer.cs" />
     <Compile Include="Train.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Wagon.cs" />
